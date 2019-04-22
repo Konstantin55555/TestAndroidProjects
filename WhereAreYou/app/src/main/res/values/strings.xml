@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">WhereAreYou</string>
+
+    <!-- Startseite -->
+    <string name="startseite_titel">WhereAreYou Startseite</string>
+    <string name="txt_startseitenanzeigen_intro">Your options:</string>
+
+    <!-- Schaltflaechentexte -->
+    <string name="sf_position_senden">send your position</string>
+    <string name="sf_position_senden_beende">dont send</string>
+    <string name="sf_geokontakte_verwalten">Geo contacts</string>
+    <string name="sf_karte_anzeigen">show map</string>
+    <string name="sf_simulation">start simulation</string>
+
+    <!-- Optionsmenue -->
+    <string name="men_einstellungen_bearbeiten">Einstellungen</string>
+    <string name="men_hilfe_anzeigen">Hilfe</string>
+    <string name="men_amando_beenden">Beenden</string>
+
+    <string name="send_position">Position an Geokontakt senden</string>
+    <string name="start_nav">Android-Navigation starten</string>
+
+    <string name="txt_geokontakt_name">Name:</string>
+    <string name="txt_geokontakt_telefon">Telefon:</string>
+    <string name="txt_geokontakt_letzte_pos">Letzte Position:</string>
+    <string name="txt_geokontakt_stichwort">Stichwort:</string>
+    <string name="txt_geokontakt_datum">Datum:</string>
+
+
+
+
+
+
+
+
 </resources>

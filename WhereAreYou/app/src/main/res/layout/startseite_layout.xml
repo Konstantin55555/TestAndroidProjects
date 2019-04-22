@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/TextStyleUeberschrift"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
         android:text="@string/txt_startseitenanzeigen_intro"/>
     <Button
-    android:id="@+id/sf_position_senden"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/sf_position_senden"/>
+        android:id="@+id/sf_position_senden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sf_position_senden"/>
     <Button
         android:id="@+id/sf_starte_geokontakte"
         android:layout_width="match_parent"
@@ -29,6 +37,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/whereareyou_logo"/>
+        android:src="@drawable/where_are_you_logo"/>
 
 </LinearLayout>

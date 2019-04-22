@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txt_name_label"
+        android:text="@string/txt_geokontakt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+    <EditText
+        android:id="@+id/txt_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:layout_below="@id/txt_name_label"/>
+
+    <TextView
+        android:id="@+id/txt_telefon_label"
+        android:text="@string/txt_geokontakt_telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name_edit"/>
+    <EditText
+        android:id="@+id/txt_telefon_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_below="@id/txt_telefon_label"/>
+
+    <TextView
+        android:id="@+id/txt_letzte_pos_label"
+        android:text="@string/txt_geokontakt_letzte_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_telefon_edit"/>
+    <TextView
+        android:id="@+id/txt_letzte_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_letzte_pos_label"/>
+
+    <TextView
+        android:id="@+id/txt_stichwort_label"
+        android:text="@string/txt_geokontakt_stichwort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_letzte_pos"/>
+    <TextView
+        android:id="@+id/txt_stichwort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_stichwort_label"/>
+
+    <TextView
+        android:id="@+id/txt_datum_label"
+        android:text="@string/txt_geokontakt_datum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_stichwort"/>
+    <TextView
+        android:id="@+id/txt_datum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_datum_label"/>
+</RelativeLayout>
